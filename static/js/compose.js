@@ -1217,6 +1217,10 @@ exports.initialize = function () {
         mode: "compose",
     });
 
+    $("#message_textarea_wrapper").on("click", () => {
+        $("#compose-textarea").focus();
+    });
+
     $("#compose-textarea").on("focus", () => {
         const opts = {
             message_type: compose_state.get_message_type(),
