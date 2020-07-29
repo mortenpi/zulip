@@ -46,8 +46,8 @@ EMOTICON_CONVERSIONS = {
     ':D': ':grinning:',
     ':o': ':open_mouth:',
     ':O': ':open_mouth:',
-    ':p': ':stuck_out_tongue:',
-    ':P': ':stuck_out_tongue:',
+    ':p': ':mischievous:',
+    ':P': ':mischievous:',
 }
 
 def emoji_names_for_picker(emoji_name_maps: Dict[str, Dict[str, Any]]) -> List[str]:
